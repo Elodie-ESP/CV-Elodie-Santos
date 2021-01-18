@@ -1,0 +1,51 @@
+body {
+	font-size: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.gauche{
+	background-color: cyan;
+	width: 25%;
+	color: red;
+}
+
+.droite{
+	background-color: grey;
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+
+	justify-content: flex-end;
+}
+
+.droite-gauche {
+	background-color: yellow;
+}
+
+.droite-droite {
+	background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+<body>
+	<div class="gauche">
+		Mooooot 1
+		Mooooot 1
+		Mooooot 1
+		Mooooot 1
+	</div>
+
+	<div class="droite"> /* Gris */
+		<div class="droite-gauche">Mot 2 gauche</div> /* Jaune */
+		<div class="droite-droite">Mot 2 droite</div> /* Rose */
+	</div>
+</body>
